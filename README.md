@@ -3,9 +3,13 @@ Description
 
 This is a simple multithreaded TCP port scanner built in Python.
 It scans a target host to identify open TCP ports within a specified range.
+
 The scanner uses:
+
 .Python’s socket module to perform TCP connect scans
+
 .Multithreading to improve scanning speed
+
 .Input validation to ensure valid host and port range
 
 How It Works
