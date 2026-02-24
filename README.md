@@ -1,19 +1,19 @@
-# 🔎 Python GUI Port Scanner
+# Python GUI Port Scanner
 
 A multithreaded TCP port scanner built with Python and CustomTkinter.  
 This tool scans a target host for open TCP ports within a specified range and displays results in a graphical interface with a live progress bar.
 
 ---
 
-## 🚀 Features
+## Features
 
-- ✅ TCP Connect Port Scanning  
-- ✅ Graphical User Interface (GUI)  
-- ✅ Real-time Progress Bar  
-- ✅ Multithreading (keeps UI responsive)  
-- ✅ Input Validation (IP + port range)  
-- ✅ Service Name Detection for Common Ports  
-- ✅ Scan Time Display  
+- TCP Connect Port Scanning  
+- Graphical User Interface (GUI)  
+- Real-time Progress Bar  
+- Multithreading (keeps UI responsive)  
+- Input Validation (IP + port range)  
+- Service Name Detection for Common Ports  
+- Scan Time Display  
 
 ---
 
@@ -64,17 +64,15 @@ python portscanner.py
 
 ---
 
-## 📌 Example Output
+## Example Output
 
-```
 
 <img width="497" height="626" alt="Screenshot 2026-02-24 1627432" src="https://github.com/user-attachments/assets/1922fa03-032e-4e34-b31f-1dee3e401528" />
 
-```
 
 ---
 
-## ⚠️ Ethical Use Notice
+## Ethical Use Notice
 
 This tool is intended strictly for:
 
@@ -89,7 +87,7 @@ Safe practice target:
 
 ---
 
-## 🧠 What I Learned
+## What I Learned
 
 - Working with TCP sockets  
 - Handling concurrency using threading  
@@ -99,7 +97,7 @@ Safe practice target:
 
 ---
 
-## 📈 Future Improvements
+## Future Improvements
 
 - Add UDP scanning  
 - Implement thread pool for better performance  
@@ -110,6 +108,6 @@ Safe practice target:
 
 ---
 
-## 📜 License
+## License
 
 This project is for educational purposes only.
