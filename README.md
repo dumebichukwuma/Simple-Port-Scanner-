@@ -1,38 +1,114 @@
-# Simple-TCP-Port-Scanner-
-Description
+# 🔎 Python GUI Port Scanner
 
-This is a simple multithreaded TCP port scanner built in Python.
-It scans a target host to identify open TCP ports within a specified range.
+A multithreaded TCP port scanner built with Python and CustomTkinter.  
+This tool scans a target host for open TCP ports within a specified range and displays results in a graphical interface with a live progress bar.
 
-The scanner uses:
+---
 
-.Python’s socket module to perform TCP connect scans
+## 🚀 Features
 
-.Multithreading to improve scanning speed
+- ✅ TCP Connect Port Scanning  
+- ✅ Graphical User Interface (GUI)  
+- ✅ Real-time Progress Bar  
+- ✅ Multithreading (keeps UI responsive)  
+- ✅ Input Validation (IP + port range)  
+- ✅ Service Name Detection for Common Ports  
+- ✅ Scan Time Display  
 
-.Input validation to ensure valid host and port range
+---
 
-How It Works
+## 🛠 Technologies Used
 
-.The program resolves the hostname to an IP address.
+- Python 3  
+- socket – Network connections  
+- threading – Background scanning  
+- time – Scan duration tracking  
+- customtkinter – Modern GUI  
 
-.It validates the user-input port range (1–65535).
+---
 
-.A thread is created for each port in the specified range.
+## 📦 Installation
 
-.The scanner attempts a TCP connection to each port.
+1. Install Python 3.10 or higher  
+2. Install CustomTkinter:
 
-.Open ports are displayed.
+```bash
+pip install customtkinter
+```
 
-.The total scan time is calculated and printed.
+3. Run the program:
 
-How to Run
-python port_scanner.py
+```bash
+python portscanner.py
+```
 
-Then enter:
+---
 
-.Target IP address or hostname
+## 🖥 How It Works
 
-'Starting port
+1. The user enters:
+   - Target IP address or hostname
+   - First port
+   - Last port
 
-'Ending port
+2. The program:
+   - Validates input
+   - Resolves hostname to IP address
+   - Scans each port using TCP `connect_ex`
+   - Updates the progress bar in real time
+   - Displays open ports with detected services
+
+3. After completion:
+   - Displays total scan duration
+   - Shows all discovered open ports
+
+---
+
+## 📌 Example Output
+
+```
+<img width="497" height="626" alt="image" src="https://github.com/user-attachments/assets/ba231218-944c-4c66-b61f-1b38880b7d72" />
+
+```
+
+---
+
+## ⚠️ Ethical Use Notice
+
+This tool is intended strictly for:
+
+- Educational purposes  
+- Testing systems you own  
+- Authorized lab environments  
+
+Do NOT scan networks or systems without explicit permission. Unauthorized scanning may be illegal.
+
+Safe practice target:
+- scanme.nmap.org (provided for learning purposes)
+
+---
+
+## 🧠 What I Learned
+
+- Working with TCP sockets  
+- Handling concurrency using threading  
+- Updating GUI elements safely using `root.after`  
+- Tracking execution time  
+- Designing a functional desktop interface  
+
+---
+
+## 📈 Future Improvements
+
+- Add UDP scanning  
+- Implement thread pool for better performance  
+- Add export-to-file functionality  
+- Add a Stop Scan button  
+- Add colored output for open ports  
+- Add logging system  
+
+---
+
+## 📜 License
+
+This project is for educational purposes only.
