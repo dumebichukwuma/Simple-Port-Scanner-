@@ -67,7 +67,8 @@ python portscanner.py
 ## 📌 Example Output
 
 ```
-<img width="497" height="626" alt="image" src="https://github.com/user-attachments/assets/ba231218-944c-4c66-b61f-1b38880b7d72" />
+
+<img width="497" height="626" alt="Screenshot 2026-02-24 1627432" src="https://github.com/user-attachments/assets/1922fa03-032e-4e34-b31f-1dee3e401528" />
 
 ```
 
